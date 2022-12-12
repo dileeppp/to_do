@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+}
+
+.task{
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30px;
+    border-top: 5px solid rgb(184, 161, 228);
+    border-left: 5px solid lightblue;
+    border-right: 5px solid rgb(49, 21, 231);
+    border-bottom: 5px solid lightslategrey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.task :nth-child(1){
+    color: rgb(213, 168, 168);
+}
+.task :nth-child(2){
+    color: rgb(97, 160, 228);
+}
+.task :nth-child(3){
+    color: rgb(77, 57, 177);
+}
+.task :nth-child(4){
+    color: rgb(88, 113, 91);
+}
+.task :nth-child(5){
+    color:rgb(42, 41, 41);
+
+}
+.task :nth-child(6){
+    color: rgb(176, 130, 220);
+}
+.task :nth-child(7){
+    color: rgb(44, 219, 65);
+}
+.task :nth-child(8){
+    color: rgb(42, 41, 41);
+}
+
+
+.task :nth-child(9){
+    color: rgb(231, 19, 157);
+}
+.task :nth-child(10){
+    color: rgba(231, 210, 49, 0.719);
+}
+
+
+
