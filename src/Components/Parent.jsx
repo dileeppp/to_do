@@ -12,7 +12,7 @@ import React, { useState } from "react";
 const Parent = () => {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState([
-    { todoName: "chandra", strike: false },
+    { todoName: "Dileep", strike: false },
   ]);
   const [editingIndex, setEditingIndex] = useState(-1);
 
